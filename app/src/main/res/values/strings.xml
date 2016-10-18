@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Beatboxer</string>
+    <string name="cymbal">Cymbal</string>
+    <string name="hat">Hat</string>
+    <string name="kick">Kick</string>
+    <string name="snare">Snare</string>
+    <string name="shaker">Shaker</string>
+    <string name="bass">Bass</string>
+    <string name="rattle">Rattle</string>
+    <string name="snap">Snap</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="ime_i_prezime">Ime i prezime polaznika: Marko Milinković \n</string>
+    <string name="broj_moba">Broj mobitela: 099 5913 076 \n</string>
+    <string name="email">Email: marko.milinkovic3008@gmail.com</string>
+    <string name="aboutApp">Aplikacija je napravljena kao seminarski rad za smjer - programer mobilnih Android aplikacija.
+        Pošto sam veliki fan igranja sa zvukovima na računalu, ovo mi je prvo palo na pamet, ne bih htio stati
+        na ovome, želja mi je dodati mogućnost ubacivanja vlastitih zvukova te mogućnost snimanja.
+        Vjerujem da će mi ovo biti prva objavljena aplikacija na Google storeu jednog dana. :)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_select_default_layout">Please select default layout</string>
+    <string name="default_layout">Default layout</string>
+    <string name="theme">Theme</string>
+</resources>

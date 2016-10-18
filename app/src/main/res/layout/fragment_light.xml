@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.marwilin.beatboxer.LightFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCymbal"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/cymbal" />
+
+            <Button
+                android:id="@+id/btnHat"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/hat" />
+
+            <Button
+                android:id="@+id/btnKick"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/kick" />
+
+            <Button
+                android:id="@+id/btnSnare"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/snare" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnShaker"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/shaker" />
+
+            <Button
+                android:id="@+id/btnBass"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/bass" />
+
+            <Button
+                android:id="@+id/btnRattle"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/rattle" />
+
+            <Button
+                android:id="@+id/btnSnap"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/snap" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
